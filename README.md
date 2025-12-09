@@ -23,7 +23,7 @@ It is designed to be intelligent:
 
 ### Installing FFmpeg
 
-*   **Windows:** [Download Build](https://gyan.dev/ffmpeg/builds/), extract, and add the `bin` folder to your System PATH.
+*   **Windows:** `winget install -e --id Gyan.FFmpeg`
 *   **macOS:** `brew install ffmpeg`
 *   **Linux (Debian/Ubuntu):** `sudo apt install ffmpeg`
 
@@ -31,8 +31,8 @@ It is designed to be intelligent:
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/media-target-compressor.git
-    cd media-target-compressor
+    git clone https://github.com/petercunha/compressor.git
+    cd compressor
     ```
 
 2.  Install the Python requirements:
